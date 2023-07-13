@@ -1,0 +1,19 @@
+{
+  "name": "sass-landing-page",
+  "version": "1.0.0",
+  "description": "Landing Page with Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IngDonovan/sass-landing-page.git"
+  },
+  "author": "Ing Donovan <rojasdrm03@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IngDonovan/sass-landing-page/issues"
+  },
+  "homepage": "https://github.com/IngDonovan/sass-landing-page"
+}
