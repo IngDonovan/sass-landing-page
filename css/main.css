@@ -1,29 +1,66 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
   background: #140F07;
   color: #FFFFFF;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100vw;
   height: 32px;
   padding: 25px;
 }
-
+nav p {
+  font-size: 2rem;
+  font-weight: bold;
+}
 nav ul {
-  display: flex;
+  list-style-type: none;
   flex-direction: row;
+  align-items: center;
+}
+nav ul li {
+  cursor: pointer;
+}
+nav .icons {
+  display: none;
+}
+nav .icons li {
+  padding-left: 40px;
+}
+nav .iconCel {
+  display: flex;
 }
 
 main {
+  background-color: #0E3859;
   width: 100%;
   height: 30px;
 }
 
 footer {
-  background-color: #0E3859;
+  background-color: #087AB6;
   width: 100%;
   height: 250px;
+}
+
+@media (min-width: 599px) {
+  nav .icons {
+    display: flex;
+  }
+  nav .iconCel {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
