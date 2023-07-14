@@ -15,11 +15,11 @@ body {
 }
 
 nav {
+  background-color: #0E3859;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
-  height: 32px;
+  height: 8vh;
   padding: 25px;
   color: #08C8FF;
 }
@@ -52,8 +52,9 @@ main {
 
 .intro-section {
   display: flex;
-  padding: 25px;
   justify-content: space-between;
+  margin-top: 60px;
+  padding: 0 60px;
 }
 .intro-section .impact-article h1 {
   margin-top: 50px;
@@ -66,8 +67,26 @@ main {
   font-weight: 400;
   max-width: 550px;
 }
-.intro-section img {
-  width: calc(25vw - 50px);
+.intro-section .impact-article button {
+  width: 260px;
+  height: 73px;
+  margin-top: 100px;
+  border-radius: 35px;
+  background: #FA9500;
+  color: #FFF;
+  font-family: IBM Plex Sans;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.intro-section picture {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+}
+.intro-section picture img {
+  max-width: 40vw;
   border-radius: 19px;
 }
 
