@@ -29,6 +29,7 @@ nav {
     width: 100vw;
     height: 32px;
     padding: 25px;
+    color: $primary-text-color;
     p{
         font-size: 2rem;
         font-weight: bold;  
@@ -50,14 +51,44 @@ nav {
     .iconCel{
         display: flex;
     }
+}
+
+main{
+    height: auto;
+    background-color: gray;
+}
+.intro-section{
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    .impact-article{
+
+        h1{
+            margin-top: 50px;
+            font-size: 6rem;
+            font-weight: 500;
+        }
+        p{
+            margin-top: 60px;
+            font-size: 2.5rem;
+            font-weight: 400;
+            max-width: 550px;
+        }
+        button{
+
+        }
+    }
+        img{
+            // max-width: 40vw;
+            width: calc(25vw - 50px);
+            border-radius: 19px;
+        }
 
 }
 
-main {
-    background-color: $secondary-color;
-    width: 100%;
-    height: 30px;
-}
+
+
+
 footer {
     background-color: $tertiary-color;
     width: 100%;
@@ -73,5 +104,19 @@ footer {
             display: none;
         }
     }
+    // .intro-section{
+    //     flex-direction: row;
+    //     .impact-article{
+    //         width: calc(50% - 27px);
+    //     }
+    //     .image-section{
+    //         width: calc(50% - 27px);
+    //         background: white;
+    //         img{
+    //             width: 25vw;
+    //         }
+    //     }
+    // }
+
 
 }
