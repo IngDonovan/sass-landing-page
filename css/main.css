@@ -44,6 +44,14 @@ nav .icons {
 nav .icons li {
   padding-left: 40px;
 }
+nav .icons svg {
+  width: 35px;
+  height: 35px;
+  color: white;
+}
+nav .icons svg:hover {
+  fill: red;
+}
 nav .iconCel {
   display: flex;
 }
@@ -132,11 +140,15 @@ main {
 .product-section .healtcare .card-section .product-card span, .product-section .furniture .card-section .product-card span {
   align-self: end;
   padding: 15px;
+  cursor: pointer;
 }
 .product-section .healtcare .card-section .product-card span svg, .product-section .furniture .card-section .product-card span svg {
   width: 30px;
   height: 30px;
-  color: #FFFFFF;
+  color: white;
+}
+.product-section .healtcare .card-section .product-card span svg:hover, .product-section .furniture .card-section .product-card span svg:hover {
+  fill: red;
 }
 .product-section .healtcare .card-section .product-card figure, .product-section .furniture .card-section .product-card figure {
   padding: 0 30px;

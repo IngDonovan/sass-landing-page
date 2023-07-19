@@ -6,6 +6,15 @@ $secondary-text-color: #0ffff8;
 $tertiary-text-color: #ffffff;
 $font-stack: "IBM Plex Sans", sans-serif;
 
+@mixin svgStyle ($color, $width, $height, $hovercolor: null){
+  svg {
+      width: $width;
+      height: $height;
+      color:$color;
+  }
+  svg:hover {fill: $hovercolor;}
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -50,6 +59,7 @@ nav {
     li {
       padding-left: 40px;
     }
+    @include svgStyle(white,35px,35px,red)
   }
   .iconCel {
     display: flex;
@@ -145,11 +155,13 @@ main {
         span{
           align-self: end;
           padding: 15px;
-          svg{
-            width: 30px;
-            height: 30px;
-            color: #FFFFFF;
-          }
+          cursor: pointer;
+          @include svgStyle(white,30px,30px,red)
+          // svg{
+          //   width: 30px;
+          //   height: 30px;
+          //   color: #FFFFFF;
+          // }
         }
         figure{
           padding: 0 30px;
