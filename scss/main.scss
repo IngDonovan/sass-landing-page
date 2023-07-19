@@ -20,6 +20,9 @@ body {
   background: $primary-color;
   color: $tertiary-text-color;
   font-family: $font-stack;
+  svg path {
+    stroke: currentColor;        
+  }
 }
 
 nav {
@@ -132,7 +135,7 @@ footer {
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* Estilos para pantallas con un ancho de al menos 769px */
   .intro-section {
     flex-direction: row;
@@ -213,7 +216,7 @@ footer {
             svg{
                 width: 30px;
                 height: 30px;
-              
+                color: #0e3859;
             }
           }
           figure{
@@ -236,7 +239,14 @@ footer {
         }
       }
     }
-
+    .furniture {
+      @extend .healtcare;
+      .card-section{
+        .product-card{
+          background: $tertiary-color;
+        }
+      }
+    }
   }
   
 }

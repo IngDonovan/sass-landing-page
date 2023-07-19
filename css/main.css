@@ -13,6 +13,9 @@ body {
   color: #ffffff;
   font-family: "IBM Plex Sans", sans-serif;
 }
+body svg path {
+  stroke: currentColor;
+}
 
 nav {
   background-color: #0e3859;
@@ -114,7 +117,7 @@ footer {
     display: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   /* Estilos para pantallas con un ancho de al menos 769px */
   .intro-section {
     flex-direction: row;
@@ -163,15 +166,15 @@ footer {
     background: skyblue;
     margin-top: 60px;
   }
-  .product-section .healtcare {
+  .product-section .healtcare, .product-section .furniture {
     margin: 0 60px;
   }
-  .product-section .healtcare h2 {
+  .product-section .healtcare h2, .product-section .furniture h2 {
     padding: 60px 0;
     font-size: 5rem;
     font-weight: 300;
   }
-  .product-section .healtcare .card-section {
+  .product-section .healtcare .card-section, .product-section .furniture .card-section {
     background: black;
     display: flex;
     justify-content: center;
@@ -180,7 +183,7 @@ footer {
          column-gap: 135px;
     row-gap: 75px;
   }
-  .product-section .healtcare .card-section .product-card {
+  .product-section .healtcare .card-section .product-card, .product-section .furniture .card-section .product-card {
     background: rgb(42, 42, 42);
     display: flex;
     flex-direction: column;
@@ -188,29 +191,33 @@ footer {
     height: 500px;
     border-radius: 8px;
   }
-  .product-section .healtcare .card-section .product-card span {
+  .product-section .healtcare .card-section .product-card span, .product-section .furniture .card-section .product-card span {
     align-self: end;
     padding: 15px;
   }
-  .product-section .healtcare .card-section .product-card span svg {
+  .product-section .healtcare .card-section .product-card span svg, .product-section .furniture .card-section .product-card span svg {
     width: 30px;
     height: 30px;
+    color: #0e3859;
   }
-  .product-section .healtcare .card-section .product-card figure {
+  .product-section .healtcare .card-section .product-card figure, .product-section .furniture .card-section .product-card figure {
     padding: 0 40px;
   }
-  .product-section .healtcare .card-section .product-card figure img {
+  .product-section .healtcare .card-section .product-card figure img, .product-section .furniture .card-section .product-card figure img {
     width: 100%;
     height: 300px;
     border-radius: 8px;
   }
-  .product-section .healtcare .card-section .product-card figure h3 {
+  .product-section .healtcare .card-section .product-card figure h3, .product-section .furniture .card-section .product-card figure h3 {
     padding-top: 16px;
     font-size: 25px;
     font-weight: 300;
   }
-  .product-section .healtcare .card-section .product-card figure p {
+  .product-section .healtcare .card-section .product-card figure p, .product-section .furniture .card-section .product-card figure p {
     font-size: 15px;
     font-weight: 300;
+  }
+  .product-section .furniture .card-section .product-card {
+    background: #087ab6;
   }
 }/*# sourceMappingURL=main.css.map */
