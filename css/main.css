@@ -138,6 +138,7 @@ footer {
     align-self: start;
     width: 260px;
     height: 73px;
+    margin-top: 100px;
     border-radius: 35px;
     background: #fa9500;
     border: none;
@@ -172,6 +173,12 @@ footer {
   }
   .product-section .healtcare .card-section {
     background: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    -moz-column-gap: 135px;
+         column-gap: 135px;
+    row-gap: 75px;
   }
   .product-section .healtcare .card-section .product-card {
     background: rgb(42, 42, 42);
