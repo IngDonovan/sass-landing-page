@@ -267,4 +267,36 @@ footer {
   .product-section .healtcare .card-section .product-card figure p, .product-section .furniture .card-section .product-card figure p {
     font-size: 1.5rem;
   }
+  .info-section {
+    background: pink;
+    margin-top: 60px;
+  }
+  .info-section .about-us {
+    padding: 60px;
+  }
+  .info-section .about-us h2 {
+    font-size: 5rem;
+  }
+  .info-section .about-us aside {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .info-section .about-us aside .earth, .info-section .about-us aside .innovation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    max-width: 615px;
+  }
+  .info-section .about-us aside .earth img, .info-section .about-us aside .innovation img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .info-section .about-us aside .earth p, .info-section .about-us aside .innovation p {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
