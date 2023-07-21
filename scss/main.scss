@@ -81,6 +81,7 @@ main {
   display: flex;
   flex-direction: column-reverse;
   // justify-content: space-between;
+  margin-top: 30px;
   align-items: center;
   padding: 0 27px;
 
@@ -489,50 +490,30 @@ footer {
     }
     .ZoneMap{
       margin-top: 60px;
-      // width: 100%;
-  
-      // #map{
-      //   width: 100%; 
-      //   height: 600px;
-      //   font-size: 1.5rem;
-      //   border-radius: 12px;
-      // }
     }
     h3{
       margin-top: 50px;
-      // align-self: flex-start;
       font-size: 3.5rem;
-      // font-weight: 300;
     }
     p{
-      // align-self: flex-start;
       font-size: 2.5rem;
-      // font-weight: 300;
     }
   }
   
   footer {
-    // background-color: $tertiary-color;
-    // width: 100%;
-    // height: auto;
     aside{
       @include flexCenter(row, center ,center);
       padding: 40px;
       gap: 35px;
       h3{
         font-size: 3rem;
-        // font-weight: 500;
       }
       p{
         font-size: 2rem;
-        // font-weight: 400;
       }
     }
     figure{
-      // @include flexCenter(row, center ,center);
       padding-bottom: 30px;
-      
-  
     }
   }
 
