@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  background: #140f07;
-  color: #ffffff;
+  background: #121C13;
+  color: #CECECE;
   font-family: "IBM Plex Sans", sans-serif;
 }
 body svg path {
@@ -18,13 +18,13 @@ body svg path {
 }
 
 nav {
-  background-color: #0e3859;
+  background-color: hsla(120, 100%, 25%, 0.11);
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 8vh;
   padding: 25px;
-  color: #08c8ff;
+  color: #9CC766;
 }
 nav p {
   font-size: 2rem;
@@ -58,7 +58,6 @@ nav .iconCel {
 
 main {
   height: auto;
-  background-color: gray;
 }
 
 .intro-section {
@@ -76,7 +75,7 @@ main {
 .intro-section .impact-article h1 {
   margin-top: 11px;
   font-size: 2.8rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .intro-section .impact-article p {
   margin-top: 19px;
@@ -91,8 +90,8 @@ main {
   margin-top: 18px;
   border-radius: 35px;
   border: none;
-  background: #fa9500;
-  color: #fff;
+  background: #42702F;
+  color: #CECECE;
   font-family: IBM Plex Sans;
   font-size: 1.4rem;
   font-style: normal;
@@ -109,10 +108,10 @@ main {
   border-radius: 19px;
   -o-object-fit: cover;
      object-fit: cover;
+  opacity: 0.8;
 }
 
 .product-section {
-  background: skyblue;
   margin-top: 60px;
 }
 .product-section .healtcare h2, .product-section .furniture h2 {
@@ -121,7 +120,6 @@ main {
   font-weight: 300;
 }
 .product-section .healtcare .card-section, .product-section .furniture .card-section {
-  background: black;
   width: 100%;
   display: grid;
   justify-content: initial;
@@ -169,11 +167,10 @@ main {
   font-weight: 300;
 }
 .product-section .furniture .card-section .product-card {
-  background: #087ab6;
+  background: #42702F;
 }
 
 .info-section {
-  background: pink;
   margin-top: 60px;
 }
 .info-section .about-us {
@@ -205,7 +202,7 @@ main {
 .info-section .about-us aside .earth p, .info-section .about-us aside .innovation p {
   font-size: 15px;
   text-align: center;
-  color: #08c8ff;
+  color: #FEFEFE;
 }
 .gallery {
   margin-top: 60px;
@@ -237,6 +234,7 @@ main {
   -o-object-position: 5px 35%;
      object-position: 5px 35%;
   border-radius: 16px;
+  opacity: 0.7;
 }
 .gallery .gallery-images img:hover {
   transform: scale(1.1);
@@ -267,6 +265,7 @@ main {
   height: 600px;
   font-size: 1.5rem;
   border-radius: 12px;
+  opacity: 0.7;
 }
 .location h3 {
   margin-top: 30px;
@@ -281,7 +280,7 @@ main {
 }
 
 footer {
-  background-color: #087ab6;
+  background-color: #42702F;
   width: 100%;
   height: auto;
 }
@@ -332,27 +331,17 @@ footer figure {
   }
   .intro-section .impact-article h1 {
     font-size: 6rem;
-    font-weight: 500;
+    font-weight: 600;
   }
   .intro-section .impact-article p {
     font-size: 2.5rem;
-    font-weight: 400;
-    max-width: 550px;
   }
   .intro-section .impact-article button {
     align-self: start;
     width: 260px;
     height: 73px;
     margin-top: 100px;
-    border-radius: 35px;
-    background: #fa9500;
-    border: none;
-    color: #fff;
-    font-family: IBM Plex Sans;
-    font-size: 23px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-size: 2.3rem;
   }
   .intro-section picture {
     display: flex;
@@ -362,6 +351,7 @@ footer figure {
   }
   .intro-section picture img {
     max-width: 40vw;
+    height: 50vw;
     border-radius: 19px;
   }
   .product-section {
