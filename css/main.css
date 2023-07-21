@@ -171,6 +171,41 @@ main {
   background: #087ab6;
 }
 
+.info-section {
+  background: pink;
+  margin-top: 60px;
+}
+.info-section .about-us {
+  padding: 30px;
+}
+.info-section .about-us h2 {
+  font-size: 2.2rem;
+}
+.info-section .about-us aside {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.info-section .about-us aside .earth, .info-section .about-us aside .innovation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  max-width: 188px;
+}
+.info-section .about-us aside .earth img, .info-section .about-us aside .innovation img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.info-section .about-us aside .earth p, .info-section .about-us aside .innovation p {
+  font-size: 15px;
+  text-align: center;
+  color: #08c8ff;
+}
 footer {
   background-color: #087ab6;
   width: 100%;
@@ -246,8 +281,8 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     overflow-x: none;
-    -moz-column-gap: 135px;
-         column-gap: 135px;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
     row-gap: 75px;
   }
   .product-section .healtcare .card-section .product-card, .product-section .furniture .card-section .product-card {
@@ -267,10 +302,6 @@ footer {
   .product-section .healtcare .card-section .product-card figure p, .product-section .furniture .card-section .product-card figure p {
     font-size: 1.5rem;
   }
-  .info-section {
-    background: pink;
-    margin-top: 60px;
-  }
   .info-section .about-us {
     padding: 60px;
   }
@@ -283,6 +314,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    gap: none;
   }
   .info-section .about-us aside .earth, .info-section .about-us aside .innovation {
     display: flex;

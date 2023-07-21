@@ -200,6 +200,40 @@ main {
   }
 }
 
+.info-section{
+  background: pink;
+  margin-top: 60px;
+  .about-us{
+    padding: 30px;
+    h2{
+      font-size: 2.2rem;
+    }
+    aside{
+      margin-top: 80px;
+      @include flexCenter(column, center ,center);
+      gap: 60px;
+      .earth{
+        @include flexCenter(column, center ,center);
+        width: 50vw;
+        max-width: 188px;
+        img{
+          object-fit: contain;
+        }
+        p{
+          font-size: 15px;
+          text-align: center;
+          color: $primary-text-color
+          
+        }
+      }
+      .innovation{
+        @extend .earth;
+      }
+    }
+  }
+
+}
+
 
 footer {
   background-color: $tertiary-color;
@@ -286,7 +320,7 @@ footer {
         justify-content: center;
         flex-wrap: wrap;
         overflow-x: none;
-        column-gap: 135px;
+        column-gap: 100px;
         row-gap: 75px;
         .product-card{
           width: 324px;
@@ -307,21 +341,10 @@ footer {
         }
       }
     }
-    // .furniture {
-    //   @extend .healtcare;
-    //   .card-section{
-    //     .product-card{
-    //       background: $tertiary-color;
-    //     }
-    //   }
-    // }
   }
 
   .info-section{
-    background: pink;
-    margin-top: 60px;
     .about-us{
-
       padding: 60px;
       h2{
         font-size: 5rem;
@@ -329,6 +352,7 @@ footer {
       aside{
         margin-top: 100px;
         @include flexCenter(row, space-evenly ,center);
+        gap: none;
         .earth{
           @include flexCenter(row, center ,center);
           width: 40vw;
@@ -339,9 +363,6 @@ footer {
           p{
             font-size: 30px;
           }
-        }
-        .innovation{
-          @extend .earth;
         }
       }
     }
