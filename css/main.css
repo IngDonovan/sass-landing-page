@@ -206,6 +206,38 @@ main {
   text-align: center;
   color: #08c8ff;
 }
+.gallery {
+  margin-top: 60px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+}
+.gallery h2 {
+  align-self: flex-start;
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+.gallery .gallery-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  row-gap: 30px;
+}
+.gallery .gallery-images img {
+  width: 100%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 5px 35%;
+     object-position: 5px 35%;
+  border-radius: 16px;
+}
+
 footer {
   background-color: #087ab6;
   width: 100%;
