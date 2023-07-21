@@ -237,6 +237,11 @@ main {
      object-position: 5px 35%;
   border-radius: 16px;
 }
+.gallery .gallery-images img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  transition: transform 0.3s ease;
+}
 
 footer {
   background-color: #087ab6;
@@ -362,5 +367,35 @@ footer {
   }
   .info-section .about-us aside .earth p, .info-section .about-us aside .innovation p {
     font-size: 30px;
+  }
+  .gallery {
+    padding: 0 60px;
+  }
+  .gallery h2 {
+    align-self: flex-start;
+    font-size: 5rem;
+    font-weight: 300;
+  }
+  .gallery .gallery-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: none;
+    row-gap: none;
+  }
+  .gallery .gallery-images img {
+    width: 28vw;
+    height: 45vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 5px 35%;
+       object-position: 5px 35%;
+    border-radius: 16px;
+  }
+  .gallery .gallery-images img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    transition: transform 0.3s ease;
   }
 }/*# sourceMappingURL=main.css.map */
