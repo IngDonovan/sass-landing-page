@@ -319,7 +319,6 @@ footer figure {
   }
 }
 @media (min-width: 920px) {
-  /* Estilos para pantallas con un ancho de al menos 769px */
   .intro-section {
     flex-direction: row;
     justify-content: space-between;

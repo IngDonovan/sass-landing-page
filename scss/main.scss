@@ -329,7 +329,7 @@ footer {
 }
 
 @media (min-width: 920px) {
-  /* Estilos para pantallas con un ancho de al menos 769px */
+  
   .intro-section {
     flex-direction: row;
     justify-content: space-between;
@@ -440,10 +440,7 @@ footer {
   }
 
   .gallery{
-    // margin-top: 60px;
     padding: 0 60px;
-    // @include flexCenter(column, center ,center);
-    // row-gap: 40px;
     h2{
       align-self: flex-start;
       font-size: 5rem;
@@ -469,14 +466,9 @@ footer {
   }
   
   .location{
-    // margin: 60px 0;
     padding: 0 60px;
-    // @include flexCenter(column, center ,center);
-    // gap: 15px;
     h2{
-      // align-self: flex-start;
       font-size: 5rem;
-      // font-weight: 300;
     }
     .ZoneMap{
       margin-top: 60px;
