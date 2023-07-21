@@ -244,19 +244,21 @@ main {
 }
 
 .location {
-  margin-top: 60px;
+  margin: 60px 0;
   padding: 0 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 15px;
 }
 .location h2 {
+  align-self: flex-start;
   font-size: 2.2rem;
   font-weight: 300;
 }
 .location .ZoneMap {
+  margin-top: 30px;
   width: 100%;
 }
 .location .ZoneMap #map {
@@ -265,11 +267,46 @@ main {
   font-size: 1.5rem;
   border-radius: 12px;
 }
+.location h3 {
+  margin-top: 30px;
+  align-self: flex-start;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.location p {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
 
 footer {
   background-color: #087ab6;
   width: 100%;
-  height: 250px;
+  height: auto;
+}
+footer aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 14px;
+}
+footer aside h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+}
+footer aside p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+footer figure {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  gap: 30px;
 }
 
 @media (min-width: 481px) {
@@ -420,5 +457,38 @@ footer {
     transform: scale(1.1);
     transition-duration: 0.3s;
     transition: transform 0.3s ease;
+  }
+  .location {
+    padding: 0 60px;
+  }
+  .location h2 {
+    font-size: 5rem;
+  }
+  .location .ZoneMap {
+    margin-top: 60px;
+  }
+  .location h3 {
+    margin-top: 50px;
+    font-size: 3.5rem;
+  }
+  .location p {
+    font-size: 2.5rem;
+  }
+  footer aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 35px;
+  }
+  footer aside h3 {
+    font-size: 3rem;
+  }
+  footer aside p {
+    font-size: 2rem;
+  }
+  footer figure {
+    padding-bottom: 30px;
   }
 }/*# sourceMappingURL=main.css.map */
