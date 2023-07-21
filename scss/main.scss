@@ -263,6 +263,30 @@ main {
   }
 }
 
+.location{
+  margin-top: 60px;
+  padding: 0 30px;
+  @include flexCenter(column, center ,center);
+  gap: 30px;
+  h2{
+    // align-self: flex-start;
+    font-size: 2.2rem;
+    font-weight: 300;
+  }
+  .ZoneMap{
+    width: 100%;
+    
+
+    #map{
+      width: 100%; 
+      height: 600px;
+      font-size: 1.5rem;
+      border-radius: 12px;
+    }
+  }
+}
+
+
 
 footer {
   background-color: $tertiary-color;
