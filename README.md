@@ -18,7 +18,7 @@ This is a Landing Page project created using Sass for managing styles and Respon
 - JavaScript
 - Responsive Design
 
-##Preview
+## Preview
 Below is a preview of the Landing Page:
 
 `<link>` : <https://ingdonovan.github.io/sass-landing-page/>
